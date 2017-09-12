@@ -28,7 +28,7 @@
         function StartAnim() {
             if ((top_scrool > (top_scroll_view - _height_win + _d_h + _height_bl))) {
                 _animate = true;
-                var _shover = setInterval(function () {
+                let _shover = setInterval(function () {
                     $this.text(timer);
                     timer++;
                     if (timer > settings.endnum) {
