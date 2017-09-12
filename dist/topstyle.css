@@ -1,0 +1,40 @@
+.j-toptop {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 10000;
+}
+
+.j-toptop a {
+    width: 45px;
+    display: block;
+    text-align: center;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #bbb;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.j-toptop a:hover {
+    color: #000;
+}
+
+.j-toptop span {
+    opacity: 0.4;
+    width: 45px;
+    height: 45px;
+    display: block;
+    margin-bottom: 7px;
+    background: url(top.png) no-repeat top center;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.j-toptop a:hover span {
+    background: url(top.png) no-repeat bottom center;
+    opacity: 1;
+}

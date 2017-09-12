@@ -1,0 +1,17 @@
+{
+  "name": "toptoplite",
+  "version": "1.0.1",
+  "authors": [
+    "mloop"
+  ],
+  "description": "Top on scroll",
+  "main": "",
+  "ignore": [
+    ".gitignore",
+    "bower.json"
+  ],
+  "homepage": "https://github.com/mloopalex/numanimate.git",
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
